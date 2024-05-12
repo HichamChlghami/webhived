@@ -1,0 +1,106 @@
+.portfolio-title {
+    text-align: center;
+    font-size: large;
+    font-weight: 900;
+    color: #867b7b;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 2rem;
+ text-transform: capitalize;
+}
+.portfolio-content{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+.projects{
+    margin-bottom: 3rem;
+    margin: 1.5rem;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 1px 10px blue;
+    width: 20rem;
+    cursor: pointer;
+    transition: all 0.5s 0s;
+}
+.project1{
+    box-shadow: 0 1px 10px #32CD32;
+
+}
+.project2{
+    box-shadow: 0 1px 10px yellow;
+
+}
+.project3{
+    box-shadow: 0 1px 10px #FF4500
+
+}
+.project4{
+    box-shadow: 0 1px 10px #F0F0F0;
+
+}
+.LNK{
+    color: #000;
+}
+
+.project-image{
+    width: 19rem;
+    height: 12rem;
+    background-position: center;
+    border-radius: 8px 8px 0 0;
+
+}
+.project-title{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0.7rem;
+
+}
+.flaink{
+  margin: auto;
+    display: block;
+    margin-top: 20px;
+    opacity: 0.5;
+
+}
+.flaink:hover{
+    opacity: 1.3;
+}
+.project-title{
+    color: #FFFFFF;
+   font-weight: 900;
+   text-transform: capitalize;
+}
+
+
+@media screen and (max-width:850px) {
+    .projects{
+    width: 15rem;
+
+    }
+
+    .project-image{
+        width: 14rem;
+        height: 9rem;
+       
+    
+    }
+}
+
+@media screen   and (max-width:600px){
+
+    .title-contsltation{
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+    .LNK,.home-title{
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+}

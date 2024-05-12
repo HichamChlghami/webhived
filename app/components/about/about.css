@@ -1,0 +1,157 @@
+.about-content{
+    margin-top: 150px;
+    
+}
+
+.about-title {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    position: relative; /* Needed for positioning pseudo-element */
+    text-transform: uppercase;
+}
+
+.about-title::before {
+    content: "";
+    position: absolute;
+    bottom: -5px; /* Adjust this value to control the distance between text and border */
+    left: 50%; /* Position it at the center */
+    transform: translateX(-50%); /* Center the pseudo-element */
+    width: 25%; /* Adjust the width of the border */
+    border-bottom: 3px solid yellow;
+}
+.about-des{
+    text-transform: none;
+}
+
+
+
+
+
+.about-decription{
+    /* border: 2px dotted red; */
+    width: 90%;
+    margin: auto;
+
+  
+  
+    background: rgb(244, 242, 242);
+    display: block;
+    padding: 8px 0px 38px 0px;
+   
+}
+.about-des{
+    color: black;
+letter-spacing: 1px;
+font-weight: 660;
+font-size: 1rem;
+margin: auto;
+width: 90%;
+}
+
+.about-logo{
+    width: 100%;
+  
+display: flex;
+   justify-content: center;
+}
+.about-logo-picture{
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: -20px;
+  
+
+}
+
+.logo-identiy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    gap: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.identity{
+    width: 40px;
+    height: 40px;
+}
+.span-identity{
+    border-bottom:  2.5px solid black;
+}
+.other-description{
+    background: #000;
+    margin-top: 20px;
+    width: 75%;
+}
+.other-des{
+    color: rgb(212, 211, 211);
+}
+.span-vision{
+    color: white;
+    border-bottom: 2.5px solid gray ;
+}
+.last-des{
+    width: 80%;
+}
+.nargin-description{
+margin-bottom: 60px;
+}
+.about-consltation{
+    background: rgb(244, 242, 242);
+    
+    width: 95%;
+    margin: auto;
+    padding: 10px 0 10px 0;
+    margin-top: 30px;
+    border-radius: 16px 0 16px 0;
+    margin-bottom: 30px;
+}
+.title-contsltation{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 10px;
+}
+.about-consltation-description{
+    width: 80%;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: auto;
+}
+.button-consltation{
+    margin-top: 15px;
+}
+
+@media screen  and (max-width:800px){
+    .about-title {
+        text-align: center;
+        color: white;
+        margin-bottom: 20px;
+        position: relative; /* Needed for positioning pseudo-element */
+        text-transform: uppercase;
+        font-size: 1.5rem;
+    }
+   
+
+  
+    .about-logo-picture{
+        width: 80%;
+        margin-left: 17,5%;
+        margin-right: 2.5%;
+        margin-bottom: -10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+

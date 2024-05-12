@@ -1,0 +1,153 @@
+.home{
+    width: 100%;
+    height: calc(100vh - 90px);
+    /* background:#222; */
+    margin-top: 70px;
+    overflow-x: hidden;
+    flex: 1;
+}
+
+
+.home-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.home-content-description{
+    width: 33rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+
+}
+.content-description{
+    font-size: 1.1rem;
+    color: rgb(207, 207, 185);
+    font-weight: 600;
+    cursor: pointer;
+    line-height: 30px;
+
+}
+.home-title{
+    color: rgb(236, 236, 30);
+    text-align: center;
+}
+.button-home{
+padding: 8px 14px  8px 14px ;    
+display: block;
+margin: auto;
+background: orange;
+outline: none;
+border: none;
+border-radius: 6px;
+text-align: center;
+font-size: 1.1rem;
+font-weight: 600;
+cursor: pointer;
+/* color: white; */
+font-family: 'Courier New', Courier, monospace;
+/* margin-top: 80px; */
+}
+.button-home:hover{
+    letter-spacing: 0.7px;
+background: rgb(221, 146, 9);
+
+}
+.home-image{
+    flex: 1 1 32rem;
+}
+.image-content{
+    width: 100%;
+    margin: auto;
+    margin-left: 1rem;
+  height: fit-content;
+}
+.home-text2{
+    color: gray;
+}
+@media screen and (max-width:1200px) {
+    
+    .home-content-description{
+        margin-left: 2rem;
+    flex: 1 1 23rem;
+
+    }
+    .home-image{
+    flex: 1 1 23rem;
+
+}
+}
+
+
+@media screen and (max-width:1000px) {
+  .home{
+    height: 100%;
+    margin-top: 100px;
+   
+  }
+  .home-image{
+    flex: 1 1 25rem;
+max-width: 550px;
+margin: auto;
+}
+}
+
+
+@media screen and (max-width:820px) {
+    .home-content-description{
+        margin-left: 6rem;
+        margin-right: 3rem;
+        margin-top: 2rem;
+    }
+   
+}
+
+
+
+
+@media screen and (max-width:550px) {
+
+.button-home{
+    font-size: 1.05rem;
+    font-weight: 700;
+}
+
+.content-description{
+    margin-top: 20px;
+    margin-left: 1rem;
+    margin-right: 1.2rem;
+
+
+}
+.home-title{
+    margin-left: 1rem;
+    margin-right: 1.2rem;
+
+
+}
+    .button-home{
+      margin-top: 30px;
+        }
+        .home-content-description{
+            width: 30rem;
+            margin: auto;
+        }
+        .home{
+            height:fit-content;
+        }
+.image-content{
+margin-bottom: 120px;
+}
+.home-title{
+    margin-top: 40px;
+}
+.home{
+    overflow-y: hidden;
+
+}
+.home-image{
+   margin-bottom: -100px;
+}
+      
+}

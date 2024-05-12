@@ -1,0 +1,160 @@
+.content_chalange{
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-transform:none;
+
+}
+.title__chalange {
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.card_chalange{
+    min-height: 460px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 15px 10px 15px;
+    width: 500px;
+    border: 3px solid yellow;
+    border-radius: 10px;
+
+}
+.card_chalange-section1{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 800;
+    text-transform:none;
+    
+}
+.card_chalange-section2{
+    color: rgb(195, 192, 192);
+    margin-top: 20px;
+    text-transform:none;
+    font-size: 1.1rem;
+    font-weight: 700;
+
+}
+.card_chalange-section4{
+    width: 100%;
+
+}
+.card_chalange-section3{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card_chalange-image{
+width:70px;
+height: 70px;
+justify-self:flex-end;
+
+
+
+}
+.card_chalange-section4{
+    color: whitesmoke;
+    margin-top: 20px;
+
+}
+.card_chalange-section5{
+    border-top: 3px  solid  yellow;
+    width: 90%;
+    margin: auto;
+}
+.card_chalange-link{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+width: 100%;
+}
+
+.card_chalange-link1{
+    border-bottom: 1px double white;
+    color: white;
+    width: fit-content;
+    font-size: 1.02rem;
+    font-weight: 700;
+        margin: auto;
+}
+.card_chalange-link1:hover{
+    border-bottom: 1px double yellow;
+    color: yellow;
+
+}
+
+.card_chalange_li {
+    width: 100%;
+    text-transform: none;
+    margin-top:20px;
+    margin-bottom: 20px;
+    font-size: 1.03rem;
+    font-weight: 800;
+  }
+  
+  @media screen and (max-width:560px) {
+    .title__chalange {
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    .card_chalange-imagex{
+        margin-bottom: 0px;
+     }
+     .card_chalange-imagexl{
+        margin-bottom: 0px;
+     }
+    .content_chalange{
+        width: 96%;
+        margin: auto;
+    }
+    .card_chalange{
+    
+        width:96%;
+      
+    
+    }
+  }
+
+
+
+
+
+
+
+
+  @media screen and (max-width:400px) {
+    .card_chalange-link1{
+        border-bottom: 1px double white;
+        color: white;
+        width: fit-content;
+        font-size: 0.9rem;
+        font-weight: 800;
+            margin: auto;
+    }
+    .card_chalange-section1{
+        color: white;
+        font-size: 1.1rem;
+        font-weight: 800;
+        text-transform:none;
+        
+    }
+    .card_chalange-section2{
+       
+        font-size: 1.02rem;
+      
+    
+    }
+    .card_chalange_li {
+        width: 100%;
+        text-transform: none;
+        margin-top:20px;
+        margin-bottom: 20px;
+        font-size: 0.9rem;
+        font-weight: 700;
+      }
+  }
+
+
+

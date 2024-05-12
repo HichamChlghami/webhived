@@ -1,0 +1,21 @@
+.input1{
+    border: 1.5px solid white;
+margin-top: 15px;
+}
+.input1:hover{
+    border: 1.5px solid rgb(0, 255, 204);
+
+}
+.error{
+    margin-top: -15px;
+    
+}
+.about-content-talk{
+    font-size: 1.2rem;
+    width: 70%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+}

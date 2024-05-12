@@ -1,0 +1,91 @@
+.according{
+    width: 600px;
+    margin: auto;
+}
+.according-title{
+    font-size: 1.5rem; 
+    font-weight: 900;
+    color: black;
+    text-align: center;
+   text-shadow: 8px 8px 32px white , -8px -8px 32px white;
+margin-bottom: 35px;
+}
+.item{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    
+}
+.icons-item{
+    font-size: 25px;
+   /* transition: all 0.1s 0.01s; */
+   transition: height 0.3s ease; 
+
+}
+.fd{
+    margin-top: 100px;
+}
+.title-item{
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: none;
+
+    gap: 20px;
+    color: black;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 10px;
+    transition: all 0.5s 0s;
+    background: white;
+    margin-bottom: 1px;
+    border-radius: 10px 10px  0px 0;
+ 
+
+
+}
+.item-content{
+     max-height: 0; 
+    overflow: hidden;
+}
+.show{
+    height: auto;
+    max-width: 9999px;
+    font-size: 1rem;
+    font-weight: 600;
+   padding: 20px;
+   background: whitesmoke;
+   border-radius: 0px 0px  10px 10px;
+   /* transition: all .5s linear; */
+ 
+
+   text-transform: none;
+
+
+}
+
+
+@media screen  and (max-width:605px){
+    .according{
+        width: 90%;
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    .title-faq{
+        text-transform: none;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .show{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .according-title{
+        width: 100%;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: -60px;
+    }
+}
